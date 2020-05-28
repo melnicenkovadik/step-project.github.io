@@ -1,0 +1,58 @@
+@import "_reset";
+@import "_fonts";
+@import "_variables";
+@import "_classes";
+
+body,
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+* {
+  outline: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  background: url("./../img/kisspng-stethoscope-heart-clip-art-5ae0e7f2697ec3.2653623215246888824321.png") right bottom no-repeat;
+  position: relative;
+  margin: 10px 120px;
+  background-size: contain;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  animation-duration: 10s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+}
+
+.animated .infinite .heartBeat {
+    animation-duration: 10s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+.wrapper {
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 35px;
+}
+
+/**************sections**********************/
+@import "sections/_header";
+@import "sections/_filter-visit";
+@import "sections/_visit-board";
+@import "sections/_activation-modal";
+@import "sections/_confirm-modal";
+@import "sections/_create-modal";
+@import "sections/_visit-card";
+@import "sections/_footer";
+@import "sections/_preloader";
+
+
+
